@@ -1,0 +1,156 @@
+body {
+	background-color: #2F824A;
+	margin: 0 auto;
+	line-height:20px;
+	font-family:Playfair Display, Helvetica;
+	color:white;
+}
+header{
+	background-color: #2F824A;
+}
+main {
+	background-color: #C03333;
+}
+footer {
+	clear:both;
+	text-align:center;
+	padding:20px 0;
+	font-size:30px;
+	letter-spacing:2px;
+}
+.wrapper {
+	width:960px;
+	padding-top:80px;
+	margin:0 auto;
+}
+.wrapper:after{
+	content:" ";
+	display:table;
+	clear:both;
+}
+a {
+	text-decoration:none;
+	color: #2F2929;
+}
+nav.container {
+	line-height:1;
+	background-image: url("http://demandware.edgesuite.net/aamm_prd/on/demandware.static/-/Sites-joann-product-catalog/default/dw103f4ead/images/hi-res/65/6595268.jpg");
+	background-repeat:repeat;
+	border: .2em solid white;
+	float:left;
+	width:99.18%;
+	font-size:250%;
+	padding-top:10px;
+	padding-bottom:10px;
+	text-align:center;
+}
+a.navigation {
+	text-decoration:underline overline;
+	color:white;
+	padding-left:15%;
+	text-align:center;
+	float:left;
+}
+a:visited {
+	text-decoration:none;
+}
+h1 {
+	font-family: Playfair Display, Helvetica;
+	font-size: 600%;
+	font-color:#2F2929;
+	padding-top:40px;
+}
+div.content {
+	background-color: #C03333;
+	width: 70%;
+	padding-top:50px;
+	padding-bottom:50px;
+	float:left;
+}
+.content h2 {
+	font-size:50px;
+	padding-bottom:10px;
+	margin-bottom:20px;
+}
+p.aboutme {
+	font-family: Raleway, Helvetica;
+	width:auto;
+	height:auto;
+	min-width:400px;
+	overflow:hidden;
+}
+img.polaroid {
+	float:left;
+	margin-right:10px;
+	margin-bottom:10px;
+}
+.sidebar {
+	font-family: Raleway, Helvetica;
+	font-size:50px;
+	width: 25%;
+	background-image:url("http://demandware.edgesuite.net/aamm_prd/on/demandware.static/-/Sites-joann-product-catalog/default/dw103f4ead/images/hi-res/65/6595268.jpg");
+	border:.1em solid white;
+	float:right;
+}
+.sidebar h3 {
+	padding:10px;
+	text-align:center;
+}
+.sidebar ul li a img {
+	float:left;
+	width:50px;
+	height:50px;
+	margin-left:10px;
+	padding:1px;
+	padding-left:10px;
+}
+div.contact {
+	width: 70%;
+	padding-top:50px;
+	padding-bottom:40px;
+	float:left;
+	border: .5em solid white;
+	background-image: url("http://i.imgur.com/X1LBakq.jpg");
+	font-family:Playfair Display, Helvetica;
+	font-size: 25px;
+	color:#1E1B1A;
+}
+p.info {
+	text-align:center;
+	background-color:#F2ECEB;
+	padding-top:3px;
+}
+input.info {
+	width:100%;
+	padding: 10px;
+	box-sizing: border-box;
+	border: none;
+	background-color: #f6f6f6;
+}
+textarea {
+	width:100%;
+	box-sizing: border-box;
+	border: none;
+	background-color: #f6f6f6;
+	font-size: 16px;
+	resize:none;
+}
+input.button {
+	background-color: #2F824A;
+	border:none;
+	padding: 16px 32px;
+	font-family: Playfair Display, Helvetica;
+	font-size: 25px;
+}
+img.kate {
+	width:50%;
+	padding-top:50px;
+	float:left;
+}
+div.portfolio {
+	float:left;
+	width:70%;
+	padding-top:10px;
+	padding-left:20px;
+	padding-bottom:50px;
+}
